@@ -10,6 +10,7 @@ body{
 
 #span-heading{
   color: black;
+  transition: color 0.8s;
 }
 
 #supreme-div{
@@ -88,11 +89,14 @@ input[type=checkbox]{
   margin-right: 5%;
   background-color: #FFFFFF;
   margin-top: 20px;
+  transition: color 1s;
+  transition: box-shadow 1s;
    
 }
 
 h5,form{
   padding-left: 8%;
+  transition: color 1s;
 }
 
 
@@ -124,6 +128,9 @@ h5,form{
 
 .anchor{
   color: grey;
+  text-decoration: none;
+  transition: color 0.8s;
+ 
 }
 
 
@@ -142,7 +149,7 @@ h5,form{
 
 #button{
   
-  background-color: rgb(177, 36, 18);
+  background-color: cadetblue;
   border: none;
   border-radius: 2.5px;
   color: white;
@@ -207,5 +214,26 @@ h5,form{
 
 
 
+
+/* transition-stuff */
+
+h5:hover{
+
+  color: cadetblue;  
+ 
+}
+
+.box:hover{
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+}
+
+#span-heading:hover{
+  color: cadetblue;
+}
+
+
+.anchor:hover{
+  color:cadetblue;
+}
 
 
