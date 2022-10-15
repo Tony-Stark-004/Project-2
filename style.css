@@ -1,0 +1,211 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+  margin: 3%;
+}
+
+#heading{
+  color: grey;
+}
+
+#span-heading{
+  color: black;
+}
+
+#supreme-div{
+  background-color: #F7F7F7;
+}
+
+#parent-div{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#plus-div{
+  padding: 2%;
+  color: #424242;
+}
+
+
+.fa-solid{
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 0.5%;
+  position: relative;
+  left: 80%;
+}
+
+#add-new{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+
+#removing-anchor-styling{
+  text-decoration: none;
+  color: #424242;
+}
+
+input.check-size{
+  width: 20px;
+  height: 20px;
+  
+}
+
+input[type=checkbox]{
+  accent-color: grey;
+  vertical-align: middle;
+}
+
+.input-text-1{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  color: #C2C2C2;
+  text-decoration: line-through;
+  display: inline-block;
+
+}
+
+.input-text-2{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: small;
+  display: inline-block;
+}
+
+.box{
+  
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 22%;
+  height: 250px;
+  margin-left: 5.5%;
+  margin-right: 5%;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+   
+}
+
+h5,form{
+  padding-left: 8%;
+}
+
+
+
+
+
+
+/* page-2 */
+
+#background-index-page{
+ filter: brightness(30%);
+}
+
+#pop-up{
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 26%;
+  height: 180px;
+  bottom: 30%;
+  left: 35%;
+  background-color: white;
+}
+
+#inline-block{
+  display: inline-block;
+}
+
+
+.anchor{
+  color: grey;
+}
+
+
+.fa-cross {
+  font-size: 18px;
+  margin-left: -25%;
+}
+
+
+#java{
+  display: block;
+  width: 90%;
+  height: 20px;
+
+}
+
+#button{
+  
+  background-color: rgb(177, 36, 18);
+  border: none;
+  border-radius: 2.5px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  margin-left: 68%;
+  margin-top: 7%;
+    
+}
+
+
+
+
+/* page 3rd */
+
+
+.height{
+  height: 500px;
+}
+
+.fa-angles-left{
+  position: relative;
+  left: 40%;
+  color: #424242;
+  
+}
+
+#shifting-trip-to-delhi{
+  margin-left: 40%;
+  margin-top: 0%;
+}
+
+#make-center{
+   text-align: center; 
+  padding-left: 0px;
+}
+
+.for-page-3{
+  margin-left: -23%;
+}
+
+
+
+/* page - 4 final heheheh ! */
+
+
+.bluring{
+  filter: brightness(40%);
+}
+
+
+.done{
+  margin-left: 3%;
+  margin-bottom: 7%;
+}
+
+
+
+
+
