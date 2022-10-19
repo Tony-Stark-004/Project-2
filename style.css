@@ -243,3 +243,186 @@ h5:hover{
 }
 
 
+/* TODO - mobile media query */
+
+@media (min-width: 320px) and (max-width: 440px) {
+
+body{
+  font-size:medium;
+}
+
+#heading{
+  font-size: medium;
+}
+
+#span-heading{
+  color: cadetblue;
+  transition: color 0.8s;
+}
+
+#plus-div{
+  padding: 4%;
+}
+
+#add-new{
+  display: none;
+}
+
+.fa-solid{
+  left: 50.5%;
+  color: cadetblue;
+}
+
+#parent-div{
+  flex-direction: column;
+}
+
+.box{
+  width: 88%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+h5{
+  color: cadetblue;
+}
+
+/* 2nd-page */
+
+#pop-up{
+  width: 88%;
+  bottom: 40%;
+  left: 5%;
+}
+
+.fa-cross{
+  margin-left: 3%;
+  color: #424242
+}
+
+/* 3rd-page */
+
+
+#shifting-trip-to-delhi {
+    margin-left: 5.5%;
+    margin-top: 0%;
+
+}
+
+.fa-angles-left{
+  left: 0%;
+}
+
+.for-page-3{
+  margin-left: -18%;
+}
+
+/* page-4 */
+
+.done{
+  margin-left: 0.2%;
+  margin-bottom: 18%;
+}
+
+#inline-block{
+  color: #424242;
+}
+
+ }
+
+ @media (min-width: 441px) and (max-width: 1000px) {
+
+  body{
+    font-size:medium;
+  }
+  
+  #heading{
+    font-size: medium;
+  }
+  
+  #span-heading{
+    color: cadetblue;
+    transition: color 0.8s;
+  }
+  
+  #plus-div{
+    padding: 4%;
+  }
+  
+  #add-new{
+    left: 50.5%;
+  }
+  
+  .fa-solid{
+    left: 50.5%;
+    color: cadetblue;
+  }
+  
+  #parent-div{
+    flex-direction: column;
+  }
+  
+  .box{
+    width: 88%;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  h5{
+    color: cadetblue;
+  }
+  
+  /* 2nd-page */
+  
+  #pop-up{
+    width: 60%;
+    bottom: 38%;
+    left: 20%;
+    height: 200px;
+  }
+  
+  .fa-cross{
+    margin-left: 10%;
+    color: #424242
+  }
+
+  #button{
+    margin-left: 75%;
+    background-color: #424242;
+  }
+  
+  /* 3rd-page */
+  
+  
+  #shifting-trip-to-delhi {
+      margin-left: 5.5%;
+      margin-top: 0%;
+  
+  }
+  
+  .fa-angles-left{
+    left: 0%;
+  }
+  
+  .for-page-3{
+    margin-left: -18%;
+  }
+  
+  /* page-4 */
+  
+  .done{
+    margin-left: 0.2%;
+    margin-bottom: 18%;
+  }
+  
+  #inline-block{
+    color: #424242;
+  }
+
+
+ }
+
+
+
+
